@@ -1,5 +1,3 @@
-import unittest
-
 class SimpleCalculator:
     """A simple calculator class that supports basic arithmetic operations."""
 
@@ -16,6 +14,8 @@ class SimpleCalculator:
         if b == 0:
             return None
         return a / b
+import unittest
+from simple_calculator import SimpleCalculator
 
 class TestSimpleCalculator(unittest.TestCase):
 
